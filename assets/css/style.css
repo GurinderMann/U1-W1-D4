@@ -1,7 +1,12 @@
 html{
+    
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 }
-
+body{
+    background-image: url(sfondo.png);
+    background-repeat: repeat-y;
+    background-position: center;
+}
 h1, h2, h3, h4, h5, h6{ 
     font-weight: bold;
     
@@ -13,7 +18,8 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
 
 }
-ul{
+#menu
+{
     list-style: none;
     margin-top: 20px;
 }
@@ -43,4 +49,51 @@ ul{
 #logo{
     padding-top: 40px;
     width: 300px;
+}
+
+#Ctitle{
+    text-align: left;
+    font-size: 2.5em;
+    padding-left: 20px;
+    margin-top: 60px ;
+    margin-bottom:30px ;
+
+}
+#credits{
+    text-align: left;
+    padding-left: 20px;
+    color: #b3b3b3;
+    margin-top: 30px ;
+    margin-bottom:30px ;
+}
+.content{
+    margin-top: 20px;
+    background-color: white;
+    
+    width: 400px;
+    box-shadow: 9px 6px 15px -5px rgba(0,0,0,0.38) ;
+}
+#area{
+    text-align: left;
+    padding-left: 50px;
+    
+}
+.tag{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+    
+
+#parti{
+ color: rgba(170,32,114,255)
+}
+#First-p{
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.highlited{
+    border-radius:5px ;
+    border: solid 1px  #b3b3b3;
+
 }
