@@ -1,11 +1,10 @@
-html{
-    
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
-}
+
+
 body{
     background-image: url(sfondo.png);
     background-repeat: repeat-y;
     background-position: center;
+    font-family: 'Poppins', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{ 
     font-weight: bold;
@@ -128,7 +127,7 @@ th {
     padding-left: 50px;
     text-align: left;
     margin-bottom: 20px;
-    padding-right: 20px;
+    
     background-color: #3c67c4  ;
     padding-top: 10px;
     height: 30px;
@@ -210,3 +209,24 @@ h3{
     margin-top: 10px;
 }
 
+footer{
+    margin-top: 20px;
+    background-color: rgba(7,81,104,255);
+    width: 400px;
+    box-shadow: 9px 6px 15px -5px rgba(0,0,0,0.38) ;
+    height: 125px;
+    color: white;
+
+}
+#iva{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#blog{
+    margin-top: 20px;
+    
+}
+#infoepic{
+    color: #fc04f3 
+}
