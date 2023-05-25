@@ -31,3 +31,16 @@ ul{
     margin-bottom: 10px;
 
 }
+.head{
+    margin-top: 20px;
+    background-color:#0099bd;
+    height: 330px;
+    width: 400px;
+    color: white;
+    font-size: bold;
+    box-shadow: 9px 6px 15px -5px rgba(0,0,0,0.38) ;
+}
+#logo{
+    padding-top: 40px;
+    width: 300px;
+}
