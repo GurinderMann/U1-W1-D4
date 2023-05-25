@@ -108,7 +108,7 @@ th {
   td {
     letter-spacing: 1px;
   }
- #formattazione{
+ .formattazione{
     text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -138,13 +138,75 @@ th {
 
 tbody tr:nth-child(odd) {
      background-color: #dddddd;
+   
 }
 td{
     padding-top: 10px;
     height: 30px;
-    padding-bottom: 10px;
+    padding-bottom:10px;
     
 }
 table{
     border-bottom: solid #3c67c4 ;
 }
+
+#video{
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 180px;
+    width: 300px;
+}
+.box{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+    background-color: #d6d6d6;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.7em;
+}
+#newsletter{
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+#mail{
+    height: 20px;
+    border: none;
+    border-bottom: dotted black 1px;
+}
+#submit{
+    background-color: #3c67c4;
+    color: white;
+    border: none;
+    height: 20px;
+}
+.date{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:30px ;
+}
+.categories{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 20px;
+    background-color: #d6d6d6;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: solid 1px rgb(189, 188, 188);
+}
+.description{
+    margin-top: 10px;
+}
+
