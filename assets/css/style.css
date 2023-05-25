@@ -81,19 +81,70 @@ h1, h2, h3, h4, h5, h6{
 .tag{
     padding-left: 10px;
     padding-top: 10px;
+    padding-right: 20px;
 }
     
 
-#parti{
+.parti{
  color: rgba(170,32,114,255)
 }
 #First-p{
     text-align: left;
     padding-left: 20px;
     margin-bottom: 20px;
+    padding-right: 10px;
 }
 .highlited{
     border-radius:5px ;
     border: solid 1px  #b3b3b3;
 
+}
+
+
+th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+ #formattazione{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+ }
+ ol{
+    padding-left: 80px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-right: 10px;
+ }
+ #diffusione{
+    font-weight: bold;
+ }
+ .thead{
+    padding-left: 50px;
+    text-align: left;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    background-color: #3c67c4  ;
+    padding-top: 10px;
+    height: 30px;
+    padding-bottom: 10px;
+    
+ }
+
+tbody tr:nth-child(odd) {
+     background-color: #dddddd;
+}
+td{
+    padding-top: 10px;
+    height: 30px;
+    padding-bottom: 10px;
+    
+}
+table{
+    border-bottom: solid #3c67c4 ;
 }
