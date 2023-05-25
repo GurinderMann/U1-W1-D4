@@ -1,6 +1,33 @@
-
+html{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+}
 
 h1, h2, h3, h4, h5, h6{ 
     font-weight: bold;
     
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#Title{
+    margin-top: 30px;
+}
+#home{
+    display: block;
+    margin-bottom: 10px;
+
+}
+#articoli{
+    display: block;
+    margin-bottom: 10px;
+
 }
